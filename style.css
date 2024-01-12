@@ -1,0 +1,123 @@
+* {
+  color: rgb(255, 251, 0);
+  font-family: monospace;
+}
+
+body {
+  background-color: rgb(84, 81, 255);
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+header li {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 1.5rem;
+}
+
+.about-me-title {
+  margin-top: 8rem;
+}
+
+.about-me {
+  display: inline-flex;
+  background-color: rgb(254, 254, 254);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+p {
+  font-size: 1.5rem;
+  padding: 2rem;
+  color: rgb(84, 81, 255);
+}
+
+.about-me img {
+  width: 30rem;
+  border: 1rem;
+  border-color: rgb(84, 81, 255);
+  border-radius: 50%;
+  margin-right: 8rem;
+}
+
+#projects {
+  margin-top: 8rem;
+  margin-bottom: 20rem;
+}
+
+#projects ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+#projects li {
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 1.5rem;
+}
+
+#skills {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#skills img {
+  width: 10rem;
+  height: auto;
+}
+
+#contact-me {
+  margin-top: 20rem;
+  padding-bottom: 8rem;
+}
+
+#contact-me ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+#contact-me li {
+  list-style: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
